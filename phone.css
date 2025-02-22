@@ -1,0 +1,318 @@
+{
+    scroll-behavior: smooth;
+   
+}
+
+body{
+    margin: 0%;
+}
+
+
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.39);
+    height: 6.5rem;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+.logo{
+
+
+}
+.logo img{
+    width: 4rem;
+    height: 4rem;
+    margin: .1rem;
+}
+
+.navlink{
+    display: flex;
+    
+}
+
+.navlink a{
+    text-decoration: none;
+    font-size: 1rem;
+    padding: .5rem;
+    color: white;
+    
+}
+.navlink a:hover{
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    font-size: 1.1rem;
+    color: rgb(0, 0, 0);
+    
+}
+
+
+
+
+
+
+
+
+
+
+#home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: cursive;
+    font-size: .6rem;
+    
+
+
+   background-image: url(image2.jpg);
+   background-attachment: fixed;
+   background-size:cover ;
+   background-position:center;
+   background-repeat: no-repeat;
+   height: 55rem;
+   color: white;
+
+}
+.home img{
+    
+    height: 35%;
+    border-radius: 70px;
+}
+.home button{
+    height: 3rem;
+    width: 6rem;
+    background-color: rgba(215, 45, 238, 0.911);
+    font-size: 1.7rem;
+    color: white;
+    font-weight: 900;
+
+}
+.home button:hover{
+    height: 4rem;
+    width: 7rem;
+    background-color: rgb(54, 197, 154);
+    font-size: 2rem;
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#qualification{
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+
+
+   background-image: url(image3.jpg);
+   background-attachment: fixed;
+   background-size: cover ;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 55rem;
+   color: white;
+
+}
+
+
+
+.qbox1{
+    background-color: rgba(0, 0, 0, 0.692);
+    border: 2px solid black;
+    height: 25rem;
+    width: 50rem;
+    margin: 2rem;
+    border-radius: 40px;
+    font-size: 1.2rem;
+}  
+
+.qbox1 li{
+    list-style-position: outside;
+    margin: 1.5rem;
+    font-size: 1.3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#skills{
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+
+
+   background-image: url(image4.jpg);
+   background-attachment: fixed;
+   background-size: cover ;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 55rem;
+   color: white;
+
+}
+
+
+
+.sbox1{
+    background-color: rgba(0, 0, 0, 0.692);
+    border: 2px solid black;
+    height: 27rem;
+    width: 50rem;
+    margin: 2rem;
+    border-radius: 40px;
+    font-size: 1.2rem;
+}  
+
+.sbox1 li{
+    list-style-position: outside;
+    margin: 1.5rem;
+    font-size: 1.3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#contactme{
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+
+
+   background-image: url(image5.jpg);
+   background-attachment: fixed;
+   background-size: cover ;
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 55rem;
+   color: white;
+
+}
+
+
+
+.cbox1{
+    background-color: rgba(0, 0, 0, 0.692);
+    border: 2px solid black;
+    height: 35rem;
+    width: 50rem;
+    margin: 2rem;
+    border-radius: 40px;
+    font-size: 1.2rem;
+}  
+
+.cbox1 a{
+    
+   
+
+
+    color: rgb(0, 0, 0);
+    
+    margin: 1.5rem;
+    font-size: 1.8rem;
+    width: 15rem;
+    height: 15rem;
+}
+
+
+
+
+
+.contactbutton {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-style: double;
+    border-radius: 30px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.contactbutton:hover {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: .3em solid black;
+}
+
+#instagram {
+    background-image: url(insta.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+#facebook {
+    background-image: url(facebook.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+#email {
+    background-image: url(email.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+#phoneno {
+    background-image: url(phone.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
